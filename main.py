@@ -69,4 +69,4 @@ def secure_route():
     return jsonify({'message': 'This is only available with a valid token'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
